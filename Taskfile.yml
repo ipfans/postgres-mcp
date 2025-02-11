@@ -1,0 +1,8 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - go run cmd/postgres-mcp/main.go -db "postgres://postgres:postgres@localhost:5432/postgres"
